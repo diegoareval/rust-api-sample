@@ -1,0 +1,8 @@
+[package]
+name = "api"
+version = "0.1.0"
+authors = ["devs-software <devssoftware72.com>"]
+
+[dependencies]
+diesel = { version = "1.2.2", features = ["postgres"] }
+dotenv = "0.11.0"
